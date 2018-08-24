@@ -14,6 +14,10 @@
 		46E90A49212FA353005A7D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E90A47212FA353005A7D8F /* LaunchScreen.storyboard */; };
 		46E90A54212FA353005A7D8F /* ProfWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E90A53212FA353005A7D8F /* ProfWikiTests.swift */; };
 		46E90A5F212FA353005A7D8F /* ProfWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E90A5E212FA353005A7D8F /* ProfWikiUITests.swift */; };
+		46E90A6D212FA942005A7D8F /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E90A6C212FA942005A7D8F /* Teacher.swift */; };
+		46E90A6F212FAB11005A7D8F /* TeacherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E90A6E212FAB11005A7D8F /* TeacherCell.swift */; };
+		46E90A71212FB3A2005A7D8F /* TeacherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E90A70212FB3A2005A7D8F /* TeacherDetail.swift */; };
+		46E90A73212FB46F005A7D8F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E90A72212FB46F005A7D8F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		46E90A5A212FA353005A7D8F /* ProfWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E90A5E212FA353005A7D8F /* ProfWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfWikiUITests.swift; sourceTree = "<group>"; };
 		46E90A60212FA353005A7D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E90A6C212FA942005A7D8F /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		46E90A6E212FAB11005A7D8F /* TeacherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCell.swift; sourceTree = "<group>"; };
+		46E90A70212FB3A2005A7D8F /* TeacherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDetail.swift; sourceTree = "<group>"; };
+		46E90A72212FB46F005A7D8F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				46E90A45212FA353005A7D8F /* Assets.xcassets */,
 				46E90A47212FA353005A7D8F /* LaunchScreen.storyboard */,
 				46E90A4A212FA353005A7D8F /* Info.plist */,
+				46E90A6C212FA942005A7D8F /* Teacher.swift */,
+				46E90A6E212FAB11005A7D8F /* TeacherCell.swift */,
+				46E90A70212FB3A2005A7D8F /* TeacherDetail.swift */,
+				46E90A72212FB46F005A7D8F /* DetailViewController.swift */,
 			);
 			path = ProfWiki;
 			sourceTree = "<group>";
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E90A6F212FAB11005A7D8F /* TeacherCell.swift in Sources */,
+				46E90A6D212FA942005A7D8F /* Teacher.swift in Sources */,
 				46E90A41212FA352005A7D8F /* ViewController.swift in Sources */,
+				46E90A73212FB46F005A7D8F /* DetailViewController.swift in Sources */,
 				46E90A3F212FA352005A7D8F /* AppDelegate.swift in Sources */,
+				46E90A71212FB3A2005A7D8F /* TeacherDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
